@@ -13,11 +13,11 @@
       <h1 class="text-center">Appointment Booking!</h1>
     </div><!-- /.hero -->
 
-    <div class="Appointment-section">
+    <div id="appointment-section">
       <div class="container jumbotron">
         <div class="col-md-4 col-md-offset-4 center-form">
           <div id="blank">
-            <form>
+            <form action="display.html" method="GET">
               <div class="form-group">
                 <label for="firstName">First</label>
                 <input type="text" name="firstName" id="firstName" placeholder="First Name">
@@ -43,13 +43,20 @@
                 <input type="time" name="time" id="time">
                 <label class="error" for="time" id="time_error">This field is required</label>
               </div><!-- /.form-group -->
-              <button type="submit" class="btn btn-warning center-block"><a class="white-link" href="booking.html">Book Now!</a></button>
+              <button type="submit" class="btn btn-warning center-block">Book Now!</button>
             </form><!-- /form-->
           </div><!-- /#blank -->
         </div><!-- /.center-form -->
       </div><!-- /.jumbotron -->
     </div><!-- /.appointment -->
 
+    <div id="confirmation">
+      <h1 class="text-center">Congrats!</h1>
+      <h3 class="text-center">Your appointment has been booked.</h3>
+      <div class="container">
+
+      </div>
+    </div>
     <!-- Scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

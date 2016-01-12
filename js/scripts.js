@@ -35,6 +35,7 @@ $("doccument").ready(function() {
           $("input#time").focus();
           return false;
         }
+        $("h1, div#appointment-section").hide();
       event.preventDefault();
   });
 });
