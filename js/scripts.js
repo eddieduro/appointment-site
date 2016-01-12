@@ -35,7 +35,20 @@ $("doccument").ready(function() {
           $("input#time").focus();
           return false;
         }
-        $("h1, div#appointment-section").hide();
+        // HIDE CONFIRMATION
+        $(".hero > h1, div#appointment-section").hide();
+        // SHOW COFRIMATION
+        $("div#cofirmation").click(function(){
+          $(this).toggle();
+        });
+
+        // ADD VAR TO SPANS
+        $(".firstName").text(firstName);
+        $(".lastName").text(lastName);
+        $(".time").text(time);
+        $(".date").text(date);
+        $(".email").text(email);
       event.preventDefault();
+
   });
 });
