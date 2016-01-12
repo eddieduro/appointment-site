@@ -1,0 +1,27 @@
+.center-form {
+  padding-left: 6.5%;
+  margin-top: 2em;
+}
+
+.form-group {
+  padding-bottom: 1.5em;
+  font-family: sans-serif;
+}
+
+.btn {
+ margin-left: 4.5em;
+}
+
+.white-link{
+  color: white;
+  text-decoration: none;
+}
+
+.white-link:hover{
+  color: grey;
+  text-decoration: none;
+}
+.white-link:active {
+  color:darkgrey;
+  text-decoration: none;
+}
